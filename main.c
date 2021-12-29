@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[]) {
     
-    printf("%d\n", number_of_files_in_dir(argv[1]));
-    
+    int a = absolute_match(argv[1], argv[2]);
+    printf("%d\n", a);
     return 0;
 }
